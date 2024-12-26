@@ -1,0 +1,391 @@
+<html lang="en"> 
+<head> 
+    <title>Student Registration Form</title> 
+<h3 align="center"> P V Deekshitha Reddy </h3> 
+    
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+        } 
+        .container { 
+            width: 80%; 
+            margin: auto; 
+            border: 1px solid #ccc; 
+            padding: 20px; 
+        } 
+        .header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            margin-bottom: 20px; 
+            border-bottom: 2px solid #000; 
+        } 
+        .header img { 
+            height: 150px; 
+        } 
+        .header h2 { 
+            text-align: center; 
+            flex: 1; 
+        } 
+        .header div:last-child { 
+            text-align: right; 
+        } 
+        .form-group { 
+            margin-bottom: 10px; 
+        } 
+        .section { 
+            margin-top: 20px; 
+            border: 1px solid #000; 
+            padding: 10px; 
+        } 
+        .full-width { 
+            width: 100%; 
+            margin-bottom: 10px; 
+        } 
+        label { 
+            display: block; 
+            margin-bottom: 5px; 
+        } 
+        input[type="text"], input[type="date"] { 
+            width: 100%; 
+            padding: 8px; 
+            margin-bottom: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+        } 
+        input[type="checkbox"] { 
+            margin-right: 5px; 
+        } 
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+        } 
+        td, th { 
+            border: 1px solid #000; 
+            padding: 5px; 
+            text-align: left; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <div class="container"> 
+        <div class="header"> 
+            <div> 
+                <img src="logo.jpeg" alt="Logo"> 
+            </div> 
+            <div> 
+                <h2>Student Registration Form</h2> 
+            </div> 
+            <div> 
+                <label align="center"><b>Office Use Only</label> 
+                <table> 
+                    <tr> 
+                        <td>Student Number:</td> 
+                        <td></td> 
+                        <td>OEN:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Ministry Number:</td> 
+                        <td></td> 
+                        <td>Grade:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Track:</td> 
+                        <td></td> 
+                        <td>Homeroom:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>International Language:</td> 
+                        <td></td> 
+                        <td>Program:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Admit Date:</td> 
+                        <td></td> 
+                        <td>Register:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Pupil of the Board:</td> 
+                        <td></td> 
+                        <td>Admit Code:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Funding Source:</td> 
+                        <td></td> 
+                        <td>Age Verification:</td> 
+                        <td></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Native Band:</td> 
+                        <td></td> 
+                        <td>OSR Status:</td> 
+                        <td>Requested</td> 
+                        <td>Received</td> 
+                        <td>Date:</td> 
+                        <td></td> 
+                    </tr> 
+                </table> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Legal Name:</label> 
+                <table> 
+                    <tr> 
+                        <td>Surname:</td> 
+                        <td><input type="text"></td> 
+                        <td>First Name:</td> 
+                        <td><input type="text"></td> 
+                        <td>Middle Name:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                </table> 
+            </div> 
+            <div class="full-width"> 
+                <label>Preferred Name:</label> 
+                <table> 
+                    <tr> 
+                        <td>Surname:</td> 
+                        <td><input type="text"></td> 
+                        <td>First Name:</td> 
+                        <td><input type="text"></td> 
+                        <td>Middle Name:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                </table> 
+            </div> 
+            <div class="full-width"> 
+                <label>Gender:</label> 
+                <input type="checkbox"> Male 
+                <input type="checkbox"> Female 
+            </div> 
+            <div class="full-width"> 
+                <label>Date of Birth:</label> 
+                <input type="date"> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Siblings in This School:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Aboriginal ID:</label> 
+                <input type="checkbox"> First Nation 
+                <input type="checkbox"> Inuit 
+                <input type="checkbox"> Métis 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Home Address:</label> 
+                <table> 
+                    <tr> 
+                        <td>Number/Street:</td> 
+                        <td><input type="text"></td> 
+                        <td>Unit #:</td> 
+                        <td><input type="text"></td> 
+                        <td>City/Township:</td> 
+                        <td><input type="text"></td> 
+                        <td>Postal Code:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Additional Info/Residence Location:</td> 
+                        <td colspan="7"><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Post Office Box:</td> 
+                        <td><input type="text"></td> 
+                        <td>911 Number:</td> 
+                        <td><input type="text"></td> 
+                        <td>Home Phone Number:</td> 
+                        <td><input type="text"></td> 
+                        <td>Listed</td> 
+                        <td><input type="checkbox"> Unlisted</td> 
+                    </tr> 
+                </table> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Mailing Address:</label> 
+                <table> 
+                    <tr> 
+                        <td>Number/Street:</td> 
+                        <td><input type="text"></td> 
+                        <td>Unit #:</td> 
+                        <td><input type="text"></td> 
+                        <td>City/Township:</td> 
+                        <td><input type="text"></td> 
+                        <td>Postal Code:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                    <tr> 
+                        <td>Additional Info/Residence Location:</td> 
+                        <td colspan="7"><input type="text"></td> 
+                    </tr> 
+                </table> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Country of Birth:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Canadian Province of Birth:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Country Of Citizenship:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Arrival Date:</label> 
+                <input type="date"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Expiry Date:</label> 
+                <input type="date"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Status In Canada:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>First Language:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Main Language at Home:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Spoken at Home:</label> 
+                <input type="checkbox"> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Previous School Attended:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Address:</label> 
+                <table> 
+                    <tr> 
+                        <td>Street:</td> 
+                        <td><input type="text"></td> 
+                        <td>City:</td> 
+                        <td><input type="text"></td> 
+                        <td>Province/State:</td> 
+                        <td><input type="text"></td> 
+                        <td>Country:</td> 
+                        <td><input type="text"></td> 
+                    </tr> 
+                </table> 
+            </div> 
+            <div class="full-width"> 
+                <label>Previous Board Attended:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Language of Instruction:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Departure Date:</label> 
+                <input type="date"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Last Grade Attended:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Reason for Transfer:</label> 
+                <input type="text"> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Health Card Number:</label> 
+                <input type="text"> 
+                <label>Version:</label> 
+                <input type="text"> 
+                <label>Immunization Record Provided:</label> 
+                <input type="checkbox"> Yes 
+                <input type="checkbox"> No 
+            </div> 
+            <div class="full-width"> 
+                <label>Medical Alert Information/Disability/Allergies:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Doctor's Name:</label> 
+                <input type="text"> 
+                <label>Telephone Number:</label> 
+                <input type="text"> 
+                <label>Ext:</label> 
+                <input type="text"> 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Student Identification Through IPRC:</label> 
+                <input type="checkbox"> Yes 
+                <input type="checkbox"> No 
+                <label>Student has an IEP:</label> 
+                <input type="checkbox"> Yes 
+                <input type="checkbox"> No 
+            </div> 
+        </div> 
+ 
+        <div class="section"> 
+            <div class="full-width"> 
+                <label>Bus Transportation Required:</label> 
+                <input type="checkbox"> Yes 
+                <input type="checkbox"> No 
+            </div> 
+            <div class="full-width"> 
+                <label>Pick Up Route:</label> 
+                <input type="text"> 
+                <label>Stop:</label> 
+                <input type="text"> 
+                <label>Time:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Transportation Company:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Drop Off Route:</label> 
+                <input type="text"> 
+                <label>Stop:</label> 
+                <input type="text"> 
+                <label>Time:</label> 
+                <input type="text"> 
+            </div> 
+            <div class="full-width"> 
+                <label>Transportation Company:</label> 
+                <input type="text"> 
+            </div> 
+        </div> 
+    </div> 
+</body> 
+</html>
